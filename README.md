@@ -226,7 +226,6 @@ Este repositório contém 4 ficheiros técnicos prontos a usar:
 Programador Sénior | Especialização em Arquitecturas Modernas, SEO Técnico e Performance
 
 - **Email:** dedosnoteclado@outlook.pt
-- **Telemóvel:** 965 179 041
 - **GitHub:** https://github.com/paulochaparro
 - **Repositório:** https://github.com/paulochaparro/youget-technical-audit
 
