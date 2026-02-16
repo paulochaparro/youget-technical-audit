@@ -1,0 +1,221 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://youget.pt/#organization",
+      "name": "You Get",
+      "legalName": "Fun Display, Lda.",
+      "alternateName": [
+        "You Get - Innovation and Technology",
+        "YouGet",
+        "YouGet Portugal"
+      ],
+      "url": "https://youget.pt",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://youget.pt/img/youget-logo.png",
+        "width": 600,
+        "height": 60,
+        "caption": "You Get Logo"
+      },
+      "description": "Loja online portuguesa de tecnologia fundada em 2005. Especialista em mobilidade elétrica, smartphones, informática e eletrodomésticos. Loja física em Leiria.",
+      "slogan": "Innovation and Technology",
+      "foundingDate": "2006-03-22",
+      "taxID": "507654595",
+      "vatID": "PT507654595",
+      "iso6523Code": "0193:507654595",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "National Trademark",
+        "value": "599243",
+        "name": "YOU GET INNOVATION AND TECHNOLOGY",
+        "issuingOrganization": {
+          "@type": "Organization",
+          "name": "INPI - Instituto Nacional da Propriedade Industrial"
+        }
+      },
+      "brand": {
+        "@type": "Brand",
+        "name": "You Get",
+        "identifier": "599243",
+        "logo": "https://youget.pt/img/youget-logo.png",
+        "slogan": "Innovation and Technology"
+      },
+      "foundingLocation": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Leiria",
+          "addressCountry": "PT"
+        }
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+351244001251",
+          "contactType": "customer service",
+          "areaServed": "PT",
+          "availableLanguage": ["pt", "en", "es"],
+          "email": "info@youget.pt"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "WhatsApp",
+          "url": "https://api.whatsapp.com/send?phone=351916381313",
+          "areaServed": "PT",
+          "availableLanguage": ["pt", "en", "es"]
+        }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/yougetportugal/",
+        "https://twitter.com/yougetportugal",
+        "https://www.youtube.com/c/YouGetPortugal",
+        "https://www.pinterest.pt/yougetportugal/",
+        "https://www.instagram.com/yougetportugal/",
+        "https://www.tiktok.com/@yougetportugal",
+        "https://www.threads.com/@yougetportugal",
+        "https://t.me/yougetoficial",
+        "https://pt.linkedin.com/company/yougetportugal",
+        "https://pt.trustpilot.com/review/youget.pt"
+      ],
+      "knowsAbout": [
+        "Mobilidade Elétrica",
+        "Trotinetes Elétricas",
+        "Smartphones",
+        "Informática",
+        "Eletrodomésticos",
+        "Piscinas"
+      ],
+      "hasMerchantReturnPolicy": {
+        "@id": "https://youget.pt/#return-policy"
+      }
+    },
+    {
+      "@type": "MerchantReturnPolicy",
+      "@id": "https://youget.pt/#return-policy",
+      "name": "Política de Devolução You Get",
+      "url": "https://youget.pt/pt/condicoes#devolucoes",
+      "merchantReturnDays": 14,
+      "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+      "returnMethod": "https://schema.org/ReturnByMail",
+      "returnFees": "https://schema.org/ReturnShippingFees",
+      "applicableCountry": "PT"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://youget.pt/#website",
+      "url": "https://youget.pt",
+      "name": "You Get",
+      "publisher": {
+        "@id": "https://youget.pt/#organization"
+      },
+      "inLanguage": ["pt-PT", "en", "es"],
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://youget.pt/pesquisa?s={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://youget.pt/#webpage",
+      "url": "https://youget.pt/",
+      "name": "You Get - Innovation and Technology | Loja Online",
+      "description": "Compre tecnologia, mobilidade elétrica, smartphones e eletrodomésticos na You Get. Entregas rápidas em Portugal. Loja em Leiria. Confiança desde 2005.",
+      "isPartOf": {
+        "@id": "https://youget.pt/#website"
+      },
+      "about": {
+        "@id": "https://youget.pt/#organization"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://youget.pt/#organization"
+      },
+      "breadcrumb": {
+        "@id": "https://youget.pt/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://youget.pt/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Início",
+          "item": "https://youget.pt/"
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://youget.pt/#store-leiria",
+      "name": "You Get Leiria",
+      "parentOrganization": {
+        "@id": "https://youget.pt/#organization"
+      },
+      "url": "https://youget.pt/pt/lojas",
+      "hasMap": "https://www.google.com/maps?ll=39.760931,-8.823389&z=17&t=m&hl=pt-PT&gl=US&mapclient=embed&q=R.+Her%C3%B3is+do+Ultramar+3+2415-405+Leiria",
+      "telephone": "+351244001251",
+      "email": "info@youget.pt",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rua Heróis do Ultramar, 3",
+        "addressLocality": "Leiria",
+        "postalCode": "2415-415",
+        "addressRegion": "Leiria",
+        "addressCountry": "PT"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.760931,
+        "longitude": -8.823389
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "https://schema.org/Monday",
+            "https://schema.org/Tuesday",
+            "https://schema.org/Wednesday",
+            "https://schema.org/Thursday",
+            "https://schema.org/Friday",
+            "https://schema.org/Saturday"
+          ],
+          "opens": "09:00",
+          "closes": "20:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/Sunday"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/PublicHolidays"
+        }
+      ]
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "name": "Lojas",
+      "url": "https://youget.pt/pt/lojas"
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "name": "Contactos",
+      "url": "https://youget.pt/pt/contactos"
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "name": "Sobre Nós",
+      "url": "https://youget.pt/family"
+    }
+  ]
+}
+</script>
