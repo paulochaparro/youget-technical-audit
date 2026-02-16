@@ -13,7 +13,6 @@ Este repositório contém uma **prova de trabalho concreta** como parte da minha
 Em vez de enviar apenas um CV tradicional, identifiquei problemas críticos no ecommerce da You Get (youget.pt) e criei **4 ficheiros técnicos prontos a implementar** que resolvem lacunas graves de SEO, performance e indexação por sistemas de IA.
 
 **Repositório:** https://github.com/paulochaparro/youget-technical-audit  
-**Contacto:** dedosnoteclado@outlook.pt | 965 179 041
 
 ---
 
